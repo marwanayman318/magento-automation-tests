@@ -1,0 +1,603 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "manage-shopping-cart;add-a-product-to-the-cart",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add a product to the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I'm on the product page for \"Radiant Tee\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3297635600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select size \"M\" and color \"Blue\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 666888700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add the product to cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3179480800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the product in my cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2599522299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should see the cart counter increased by 1",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17823300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76707000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-shopping-cart;remove-a-product-from-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Remove a product from the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I'm on the product page for \"Radiant Tee\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2852243300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I select size \"M\" and color \"Blue\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 857401199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add the product to cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3128933600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the product in my cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2315713500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I remove the product from the cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4798873700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the cart should be empty",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17023900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89750100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-shopping-cart;complete-checkout-with-a-single-item",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Complete checkout with a single item",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I'm on the product page for \"Radiant Tee\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2932162099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I select size \"M\" and color \"Blue\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657767400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I add the product to cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3170677899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3614558300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I fill in the shipping information",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5915946599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I place the order",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:299"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7647659899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see a confirmation message",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:290"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20996200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55185399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-shopping-cart;add-multiple-products-to-the-cart",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Add multiple products to the cart",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product",
+                      "Size",
+                      "Color"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Radiant Tee",
+                      "M",
+                      "Blue"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Hero Hoodie",
+                      "S",
+                      "Black"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I add the following products to the cart:",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:218"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 8767439700,
+              "error_message": "ElementClickInterceptedError: element click intercepted: Element <div class=\"swatch-option text\" id=\"option-label-size-143-item-167\" index=\"1\" aria-checked=\"false\" aria-describedby=\"option-label-size-143\" tabindex=\"0\" option-type=\"0\" option-id=\"167\" option-label=\"...\" aria-label=\"S\" option-tooltip-thumb=\"\" option-tooltip-value=\"S\" role=\"option\" thumb-width=\"110\" thumb-height=\"90\">S</div> is not clickable at point (674, 565). Other element would receive the click: <div class=\"image\" style=\"background: rgb(83, 168, 40);\"></div>\n  (Session info: chrome=135.0.7049.86)\n    at Object.throwDecodedError (C:\\Users\\marwa\\OneDrive\\Desktop\\test\\node_modules\\selenium-webdriver\\lib\\error.js:523:15)\n    at parseHttpResponse (C:\\Users\\marwa\\OneDrive\\Desktop\\test\\node_modules\\selenium-webdriver\\lib\\http.js:524:13)\n    at Executor.execute (C:\\Users\\marwa\\OneDrive\\Desktop\\test\\node_modules\\selenium-webdriver\\lib\\http.js:456:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Driver.execute (C:\\Users\\marwa\\OneDrive\\Desktop\\test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:745:17)\n    at async World.<anonymous> (C:\\Users\\marwa\\OneDrive\\Desktop\\test\\features\\step_definitions\\cart_steps.js:255:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I should see all products in the cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:276"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I should see the cart counter increased by 2",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:98"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93477400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-shopping-cart;subtotal-and-total-price-should-be-calculated-correctly",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Subtotal and total price should be calculated correctly",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I'm on the product page for \"Juno Jacket\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2842630699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I select size \"L\" and color \"Green\"",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073221599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I add the product to cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3107472300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3384778599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I fill in the shipping information",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5989154999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should see the correct subtotal and total in the cart",
+            "match": {
+              "location": "features\\step_definitions\\cart_steps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4366706799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64516000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "manage-shopping-cart",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Manage Shopping Cart",
+    "tags": [],
+    "uri": "features\\cart.feature"
+  },
+  {
+    "description": "    As a customer\n    I want to search for products\n    So I can find what I'm looking for",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-search;user-searches-for-a-product-and-applies-a-filter",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User searches for a product and applies a filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features\\step_definitions\\search_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4038434000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"jacket\"",
+            "match": {
+              "location": "features\\step_definitions\\search_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1425861199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see results that include \"jacket\"",
+            "match": {
+              "location": "features\\step_definitions\\search_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25340899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58103399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 290999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Product Search",
+    "tags": [],
+    "uri": "features\\search.feature"
+  }
+]
